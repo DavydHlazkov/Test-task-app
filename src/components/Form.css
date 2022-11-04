@@ -93,11 +93,21 @@
     margin-top: -170px;
   }
 
-  /* #prev {
-    padding-right: 6px;
-  } */
-
   #form-prev-img {
     margin: 0px 7px 0px 0px;
+  }
+}
+
+@media (max-width: 360px) {
+  .form-radio-block {
+    margin-top: 0px;
+  }
+  .radio i {
+    font-size: 14px;
+  }
+  #form-prev-img {
+    width: 15px;
+    height: 15px;
+    margin: 0;
   }
 }
