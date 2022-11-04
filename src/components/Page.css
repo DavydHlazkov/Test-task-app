@@ -126,3 +126,41 @@
     width: calc(100% - 26px);
   }
 }
+
+@media (max-width: 360px) {
+  .form-container {
+    max-width: 91%;
+    height: 480px;
+  }
+  .form-input-block {
+    margin-top: 0;
+  }
+
+  #prev {
+    width: 35%;
+    font-size: 15px;
+  }
+  #prev img {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+  }
+
+  #next {
+    width: 55%;
+    font-size: 15px;
+  }
+  #next img {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+  }
+
+  .unique-input ::placeholder {
+    font-size: 14px;
+  }
+  .unique-input input {
+    padding-left: 10px;
+    font-size: 16px;
+  }
+}

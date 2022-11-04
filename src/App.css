@@ -210,3 +210,32 @@ footer {
     margin: 0px;
   }
 }
+
+@media (max-width: 360px) {
+  #background {
+    width: 100%;
+  }
+  .container {
+    max-width: 100%;
+  }
+
+  .main {
+    max-width: 91%;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+
+  .main button {
+    margin-top: 20px;
+  }
+
+  .block {
+    max-width: 100%;
+    max-height: 254px;
+    margin-bottom: 57px;
+  }
+
+  .small-block {
+    max-width: 100%;
+  }
+}
