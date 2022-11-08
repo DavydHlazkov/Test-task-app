@@ -93,8 +93,11 @@
     margin-top: -170px;
   }
 
-  #prev {
+  /* #prev {
     padding-right: 6px;
-    margin-left: 0px;
+  } */
+
+  #form-prev-img {
+    margin: 0px 7px 0px 0px;
   }
 }

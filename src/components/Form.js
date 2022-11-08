@@ -90,7 +90,7 @@ export default function Form({
       </div>
       <div className="form-radio-button-block">
         <button id="prev" onClick={handleBackClick}>
-          <img src={prev} alt="prev" /> Назад
+          <img id="form-prev-img" src={prev} alt="prev" /> Назад
         </button>
         <button id="next" onClick={handleNextClick}>
           Далее <img src={next} alt="next" />

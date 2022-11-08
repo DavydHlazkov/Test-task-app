@@ -142,25 +142,21 @@ function App() {
     let page = radio - 1;
     if (userData[`p${page}Surname`] === "") {
       setSurnameError(true);
-      console.log(nameError, surnameError, emailError, phoneError);
     } else {
       setSurnameError(false);
     }
     if (userData[`p${page}Email`] === "") {
       setEmailError(true);
-      console.log(nameError, surnameError, emailError, phoneError);
     } else {
       setEmailError(false);
     }
     if (userData[`p${page}Phone`] === "") {
       setPhoneError(true);
-      console.log(nameError, surnameError, emailError, phoneError);
     } else {
       setPhoneError(false);
     }
     if (userData[`p${page}Name`] === "") {
       setNameError(true);
-      console.log(nameError, surnameError, emailError, phoneError);
     } else {
       setNameError(false);
     }
