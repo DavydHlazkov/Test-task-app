@@ -1,0 +1,127 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 895px;
+  height: 450px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px 60px 29px 60px;
+}
+
+.form-container img {
+  cursor: pointer;
+}
+
+.form-input-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input-block input {
+  height: 46px;
+  border: none;
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 32px;
+}
+.form-input-block ::placeholder {
+  font-size: 16px;
+  color: #000;
+}
+
+.form-button-block {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#prev {
+  background: #d9d9d9;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#next {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+
+.form-button-block img {
+  width: 14px;
+  height: 14px;
+  margin-right: 17px;
+}
+
+.form-container img {
+  width: 20px;
+  height: 20px;
+  align-self: flex-end;
+}
+
+.unique-input input {
+  width: 100%;
+  font-size: 20px;
+  color: #000;
+  font-weight: 400;
+  border-bottom: 1px solid #d9d9d9;
+  padding-left: 26px;
+}
+
+.unique-input ::placeholder {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.error input {
+  border: none;
+  border-bottom: 1px solid rgba(243, 0, 0, 1);
+}
+
+.error ::placeholder {
+  color: rgba(243, 0, 0, 1);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+@media (max-width: 500px) {
+  .form-container {
+    max-width: 326px;
+    height: 682px;
+    padding: 16px;
+    margin: 0 auto;
+  }
+
+  #prev {
+    width: 139px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 130%;
+    border-radius: 6px;
+    margin-right: 0px;
+  }
+
+  #next {
+    font-size: 16px;
+    width: 170px;
+    height: 50px;
+    border-radius: 6px;
+  }
+  button img {
+    vertical-align: middle;
+  }
+
+  .form-container img {
+    padding: 10px;
+  }
+  .form-input-block {
+    margin-top: -200px;
+  }
+  .unique-input input {
+    width: calc(100% - 26px);
+  }
+}

@@ -1,0 +1,212 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: Ubuntu;
+  color: white;
+  max-width: 100%;
+}
+
+#background {
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+footer {
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #000;
+  padding-top: 73px;
+  z-index: -1;
+}
+.pages {
+  margin-left: 150px;
+}
+
+.main {
+  color: #fff;
+  max-width: 878px;
+  height: 525px;
+  padding-top: 159px;
+  margin-left: 150px;
+  margin-bottom: 127px;
+}
+.main h1 {
+  font-size: 54px;
+  font-weight: 700;
+}
+
+.main span {
+  color: #ffc700;
+  font-weight: 700;
+  font-size: 54px;
+}
+
+.main h4 {
+  margin-top: 32px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.main p {
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 26px;
+  margin-top: 20px;
+}
+
+.main ul {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 160%;
+  text-align: left;
+  list-style-position: inside;
+}
+
+.main button {
+  font-size: 20px;
+  font-weight: 700;
+  background: #ffc700;
+  color: #000;
+  width: 270px;
+  height: 52px;
+  border: none;
+  border-radius: 16px;
+  margin-top: 24px;
+}
+
+.block {
+  width: 300px;
+  height: 254px;
+  display: flex;
+  flex-direction: column;
+}
+
+.block img {
+  width: 142px;
+  height: 149px;
+  align-self: center;
+  padding-bottom: 18px;
+}
+
+.block ul {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 130%;
+}
+.block li {
+  margin-left: 24px;
+  list-style-type: none;
+}
+
+.points {
+  border-left: 4px solid #ffc700;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.small-block {
+  width: 300px;
+  height: 254px;
+  display: flex;
+  flex-direction: column;
+}
+
+.small-block img {
+  width: 142px;
+  height: 149px;
+  align-self: center;
+  padding-bottom: 18px;
+}
+
+.small-block ul {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 130%;
+}
+.small-block li {
+  margin-left: 24px;
+  list-style-type: none;
+}
+
+@media (max-width: 500px) {
+  .container {
+    max-width: 100%;
+  }
+
+  #background {
+    width: 100%;
+    height: 800px;
+  }
+
+  .main {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 358px;
+  }
+  .main h1 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .main h4 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .main p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .main ul {
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 160%;
+    text-align: left;
+    list-style-position: inside;
+  }
+
+  .main button {
+    width: 216px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 32px;
+  }
+
+  .main span {
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  footer {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .block {
+    max-width: 300px;
+    max-height: 254px;
+    margin-bottom: 57px;
+  }
+
+  .pages {
+    margin: 0px;
+  }
+}
